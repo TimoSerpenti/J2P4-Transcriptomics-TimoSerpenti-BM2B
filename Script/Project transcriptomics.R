@@ -141,13 +141,12 @@ genes_go <- AnnotationDbi::select(
 go_deg <- intersect(genes_go$SYMBOL, rownames_deg)
 
 go_deg
+reumaresultaten[1] <- NULL
+reumaresultaten[2:5] <- NULL
+ReumaPathway <- reumaresultaten$log2FoldChange
+names(ReumaPathway) <- rownames(reumaresultaten)
   
-  reumaresultaten[1] <- NULL
-  reumaresultaten[2:5] <- NULL
-  ReumaPathway <- reumaresultaten$log2FoldChange
-  names(ReumaPathway) <- rownames(reumaresultaten)
-  
-  library(pathview)
+library(pathview)
 pathview(
   gene.data = reumaresultaten,
   pathway.id = "hsa04668",  
