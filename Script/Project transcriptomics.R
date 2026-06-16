@@ -27,8 +27,6 @@ count_matrixreuma <- featureCounts( files = allreumasamples,
                                annot.ext = "Reuma/ncbi_dataset/data/GCF_000001405.40/genomic.gtf",
                                isPairedEnd = TRUE,
                                isGTFAnnotationFile = TRUE,
-                               GTF.featureType = "gene", 
-                               GTF.attrType = "gene_id",
                                useMetaFeatures = TRUE)
 str(count_matrixreuma)
 countsreuma <- count_matrixreuma$counts
@@ -76,7 +74,17 @@ EnhancedVolcano(reumaresultaten,
                 lab = rownames(reumaresultaten),
                 x = 'log2FoldChange',
                 y = 'padj')
-dev.copy(png, 'VolcanoplotREUMA.png', 
+EnhancedVolcano(
+  reumaresultaten,
+  lab = rownames(reumaresultaten),
+  x = 'log2FoldChange',
+  y = 'padj',
+  pCutoff = 0.05,
+  FCcutoff = 1,
+  pointSize = 1,
+  labSize = 3
+)
+dev.copy(png, 'VolcanoplotREUMA2.png', 
          width = 8,
          height = 10,
          units = 'in',
