@@ -27,9 +27,9 @@ Voor dit onderzoek is data gebruikt uit eerdere studies, deze data is verkregen 
 Alle packages die zijn gebruikt voor het uitvoeren van het script zijn Rsubread(2.24.0) <a href="Bronnen/RSubread.pdf"> (Liao et al., 2019) </a>, Rsamtools(2.26.0) <a href="Bronnen/RSamtools.pdf"> (Morgan et al., 2013) </a>, DESeq2(1.50.2) <a href="Bronnen/DESeq2.pdf"> (Love et al., 2014) </a>, EnhancedVolcano(1.28.2) <a href="Bronnen/EnhancedVolcano.pdf"> (O’Connell, 2025) </a>, goseq(1.62.0) <a href="Bronnen/goseq.pdf"> (young et al., 2012) </a>, geneLenDataBase(1.46.0) <a href="Bronnen/goseq.pdf"> (young et al., 2012) </a>, org.Hs.eg.db(3.22.0) <a href="Bronnen/OrganismDbi.pdf"> (Carlson et al., 2015) </a>, AnnotationDbi(1.72.0) <a href="Bronnen/AnnotationDBI.pdf"> (Pages et al., 2017)  </a>, GO.db(3.22.0) <a href="Bronnen/AnnotationDBI.pdf"> (Pages et al., 2017)  </a>, pathview(1.50.0) <a href="Bronnen/Pathview.pdf"> (Luo & Brouwer, 2013) </a>, dplyr(1.2.1) <a href="Bronnen/dplyr.pdf"> (Broatch et al., 2019) </a> en KEGGREST(1.50.0) <a href="Bronnen/KEGGREST.pdf"> (Tenenbaum et al., 2019)</a>.
 <br>
 
-<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<div style="height: 30px;"></div>
   <b>Tabel 1:</b> Data samples. In de tabel zijn de accension nummer, de leeftijden, het geslacht en of de patiënten reuma hebben te zien.
-</p>
+<div style="height: 15px;"></div>
 
 | Accession nummer | Leeftijd | Geslacht | Diagnose |
 | :--- | :---: | :---: | :--- |
