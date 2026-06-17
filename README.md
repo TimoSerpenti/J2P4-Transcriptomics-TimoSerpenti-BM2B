@@ -5,14 +5,14 @@
 
 ## 📁 Inhoud/structuur
 
-- `assets/` - overige documenten voor de opmaak van deze pagina
-- `bronnen/` - gebruikte bronnen 
+- `assets/` - Opmaak
+- `bronnen/` - Gebruikte bronnen 
 - `data/Raw/` – Onbewerkte sample data
 - `data/Verwerkt` - verwerkte datasets gegenereerd met scripts 
 - `data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship. 
-- `resultaten/` - grafieken en tabellen
-- `scripts/` – scripts om prachtige onzin te genereren
-- `README.md` - het document om de tekst hier te genereren
+- `resultaten/` - Resultaten
+- `scripts/` – Gebruikte script om analyzes uit te voeren
+- `README.md` - Tekstbestand
 
 ---
 
@@ -43,8 +43,11 @@ Alle packages die zijn gebruikt voor het uitvoeren van het script zijn Rsubread(
 | SRR4785988 | 59 | female | Rheumatoid arthritis (established) |
 
 Eerst is er een index van het referentiegenoom gemaakt, om uitlijnen sneller te maken. Reads werden uitgelijnd tegen het humane referentiegenoom GRCh38.p14 met Rsubread (2.24.0), waarna BAM-bestanden gesorteerd zen geïndexeerd zijn met Rsamtools (2.26.0). Om te bepalen hoe vaak een read van een bepaald gen voorkomt. Is er vervolgens een count matrix gemaakt met featureCounts op basis van de bijbehorende GTF-annotatie.
+
 Differentiële genexpressieanalyse werd uitgevoerd met het package DESeq2 (1.50.2).. Hiermee is vervolgens getest op statistisch significante verschillen tussen samples. Genen werden als significant beschouwd wanneer de p-waarde kleiner was dan 0,05 en wanneer de log2 fold change groter was dan 1 of -1, wat betekent dat er sprake is van duidelijke op- of neerregulatie.
+
 Om de significante genen te visualiseren is een Volcano plot gemaakt met behulp van de EnhancedVolcano (1.28.2) package. Voor het vinden van een pathway met veranderde expressie is er een GO analyse uitgevoerd met goseq (1.62.0) en hulp van geneLenDataBase (1.46.0), org.Hs.eg.db (3.22.0) en AnnotationDbi (1.72.0).
+
 Met GO.db zijn de Go termen en beschrijvingen verkregen. Als laatst is er een pathway analyse gedaan voor de TNF signaling pathway met behulp van de package pathview(1.50.0) en KEGGREST(1.50.0).
 
 ## Resultaten
