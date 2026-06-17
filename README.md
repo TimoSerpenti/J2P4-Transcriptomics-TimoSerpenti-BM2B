@@ -5,13 +5,13 @@
 
 ## 📁 Inhoud/structuur
 
-- `assets/` - Opmaak
-- `bronnen/` - Gebruikte bronnen 
-- `data/Raw/` – Onbewerkte sample data
-- `data/Verwerkt` - verwerkte datasets gegenereerd met scripts 
-- `data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship. 
-- `resultaten/` - Resultaten
-- `scripts/` – Gebruikte script om analyzes uit te voeren
+- `Assets/` - Opmaak
+- `Bronnen/` - Gebruikte bronnen 
+- `Data/Raw/` – Onbewerkte sample data
+- `Data/Verwerkt` - verwerkte datasets gegenereerd met scripts 
+- `Data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship. 
+- `Resultaten/` - Resultaten
+- `Scripts/` – Gebruikte script om analyzes uit te voeren
 - `README.md` - Tekstbestand
 
 ---
