@@ -1,6 +1,6 @@
 # Genexpressie verschil tussen gezonde en patiënten met Reumatoïde Artritis
 <p align="center">
-  <img src="Assets/Voorblad.png" alt="Flowchart" width="600"/>
+  <img src="Assets/Voorblad.png" alt="Flowchart" />
 </p>
 
 ## 📁 Inhoud/structuur
