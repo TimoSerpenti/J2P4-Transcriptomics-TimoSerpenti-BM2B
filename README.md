@@ -22,7 +22,7 @@ Reumatoïde Artritis (RA) is de meest voorkomende chronische autoimmuunziekte va
 
 Voor dit onderzoek is data gebruikt uit eerdere studies, deze data is verkregen van 4 samples van gezonde patiënten en 4 van patiënten met RA te zien in Tabel 1. RNA is geïsoleerd uit gewrichtsslijmvlies weefsel van patiënten met RA. Alle analyses zijn uitgevoerd met R (versie 4.5.3) in RStudio. Er is gebruik gemaakt van een script om reproduceerbaarheid te garanderen. De methode is te zien in de flowchart hieronder.
 <p align="center">
-  <img src="Assets/Flowchart.png" alt="Flowchart" width="500"/>
+  <img src="Assets/Flowchart.png" alt="Flowchart" width="400"/>
 </p>
 
 De data is verstrekt door de Afdeling Magische Wetshandhaving en Ollivanders Wandwinkel Archieven. 
