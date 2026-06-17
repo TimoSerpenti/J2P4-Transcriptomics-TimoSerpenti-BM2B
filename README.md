@@ -24,9 +24,9 @@ Voor dit onderzoek is data gebruikt uit eerdere studies, deze data is verkregen 
 <p align="center">
   <img src="Assets/Flowchart.png" alt="Flowchart" width="400"/>
 </p>
-Alle packages die zijn gebruikt voor het uitvoeren van het script zijn Rsubread(2.24.0) [(Liao et al., 2019)](Bronnen/RSubread.pdf), Rsamtools(2.26.0) [(Morgan et al., 2013)](Bronnen/RSamtools.pdf), DESeq2(1.50.2) [(Love et al., 2014)](Bronnen/DESeq2.pdf), EnhancedVolcano(1.28.2) [(O’Connell, 2025)](Bronnen/EnhancedVolcano.pdf), goseq(1.62.0) [(young et al., 2012)] (Bronnen/goseq.pdf), geneLenDataBase(1.46.0), org.Hs.eg.db(3.22.0) [(Carlson et al., 2015)] (Bronnen/Org.Hs.eg.db), AnnotationDbi(1.72.0) [(Pages et al., 2017)] (Bronnen/AnnotationDBI.pdf), GO.db(3.22.0), pathview(1.50.0)[(Luo & Brouwer, 2013)] (Bronnen/Pathview.pdf), dplyr(1.2.1) [(Broatch et al., 2019)] (Bronnen/dplyr.pdf) en KEGGREST(1.50.0) [(Tenenbaum et al., 2019)] (Bronnen/KEGGREST.pdf).
+Alle packages die zijn gebruikt voor het uitvoeren van het script zijn Rsubread(2.24.0)<a href="Bronnen/RSubread.pdf">Liao et al., 2019</a> [(Liao et al., 2019)](Bronnen/RSubread.pdf), Rsamtools(2.26.0) [(Morgan et al., 2013)](Bronnen/RSamtools.pdf), DESeq2(1.50.2) [(Love et al., 2014)](Bronnen/DESeq2.pdf), EnhancedVolcano(1.28.2) [(O’Connell, 2025)](Bronnen/EnhancedVolcano.pdf), goseq(1.62.0) [(young et al., 2012)] (Bronnen/goseq.pdf), geneLenDataBase(1.46.0), org.Hs.eg.db(3.22.0) [(Carlson et al., 2015)] (Bronnen/Org.Hs.eg.db), AnnotationDbi(1.72.0) [(Pages et al., 2017)] (Bronnen/AnnotationDBI.pdf), GO.db(3.22.0), pathview(1.50.0)[(Luo & Brouwer, 2013)] (Bronnen/Pathview.pdf), dplyr(1.2.1) [(Broatch et al., 2019)] (Bronnen/dplyr.pdf) en KEGGREST(1.50.0) [(Tenenbaum et al., 2019)] (Bronnen/KEGGREST.pdf).
 <p align="center">
-  <img src="Assets/Tabel%201%Patientendata.png" alt="Tabel 1 sample data" width="200"/>
+  <img src="Assets/tabel1.png" alt="Tabel 1 sample data" width="200"/>
 </p>
 
 
