@@ -126,5 +126,13 @@ Dit onderzoek toont resultaten aan waaruit te concluderen is dat er een expressi
 Voor dit verslag is er op verschillende manieren gebruik gemaakt van AI.
 Er is gebruik gemaakt van AI voor het oplossen van script fouten tijdens analyse, hulp bij het schrijven van de ReadMe code, afbeeldingen gegenereerd (Voorblad en Flowchart), titelinspiratie, hulp bij interpretatie van resultaten, uitleggen van code + errors en spellingcontrole.
 
+## Bronnen
+
+Alle gebruikte bronnen zijn terug te vinden in de map [Bronnen/](Bronnen/).
+
+Aho, K., & Heliövaara, M. (2004). Risk factors for rheumatoid arthritis. Annals of Medicine, 36(4), 242–251. https://doi.org/10.1080/07853890410026025
+Bullock, J., Rizvi, S. A. A., Saleh, A. M., Ahmed, S. S., Do, D. P., Ansari, R. A., & Ahmed, J. (2019). Rheumatoid Arthritis: A Brief Overview of the Treatment. Medical Principles and Practice, 27(6), 501–507. https://doi.org/10.1159/000493390
+Platzer, A., Nussbaumer, T., Karonitsch, T., Smolen, J. S., & Aletaha, D. (2019). Analysis of gene expression in rheumatoid arthritis and related conditions offers insights into sex-bias, gene biotypes and co-expression patterns. PLoS ONE, 14(7), e0219698. https://doi.org/10.1371/JOURNAL.PONE.0219698
+Sharif, K., Sharif, A., Jumah, F., Oskouian, R., & Tubbs, R. S. (2018). Rheumatoid arthritis in review: Clinical, anatomical, cellular and molecular points of view. Clinical Anatomy, 31(2), 216–223. https://doi.org/10.1002/CA.22980
 
 
