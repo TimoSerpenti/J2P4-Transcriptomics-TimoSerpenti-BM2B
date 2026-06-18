@@ -123,6 +123,8 @@ Dit onderzoek toont resultaten aan waaruit te concluderen is dat er een expressi
 
 Voor vervolg onderzoek zou het goed zijn om een grotere steekproef te nemen, ook zou er naar andere pathways gekeken kunnen worden om te kijken of daar ook significante verschillen zijn.
 
+---
+
 ## Disclaimer gebruik van AI
 
 Voor dit verslag is er op verschillende manieren gebruik gemaakt van AI.
