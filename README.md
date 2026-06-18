@@ -105,7 +105,7 @@ In **Figuur 3** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 
 De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom en activering van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
 <p align="center">
-  <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="400"/>
+  <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="800"/>
 </p>
 
 > <sub>**Figuur 4: Pathview analyse** In het figuur is te zien welke genen binnen de pathway op- en neergereguleerd waren. Rood staat voor opregulatie van het gen en groen neerregulatie.<sub>
