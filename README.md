@@ -70,6 +70,7 @@ In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano pl
 <p align="center">
   <img src="Resultaten/VolcanoplotREUMA.png" alt="VolcanoPlot" width="400"/>
 </p>
+
 **Figuur 1: VolcanoPlot** Op de  x-as is de `log2foldchange` te zien en op de y-as de `p-waarde`. Genen zijn gefilterd op basis van een gecorrigeerde p-waarde `($p_{\text{adj}}$) $< 0.05$` en een absolute `$\log_2 \text{Fold Change } (\text{FC}) > 1$ (of $< -1$)`. Genen die aan beide criteria voldoen, zijn in de plot `rood` gekleurd. Genen die wel een sterke expressieverandering ondergingen maar niet statistisch significant bleken, zijn `groen` gemarkeerd, terwijl niet-significante genen `blauw of grijs` zijn weergegeven.
 De volcano plots lieten een duidelijke spreiding van genen zien die significant omhoog of omlaag gereguleerd zijn. De plots toonde bovendien enkele zeer sterke uitschieters. Zoals `SRGN`, `ANKRD30BL` en `MT-ND6 `op door een erg hoge statistische significantie.
 
@@ -79,6 +80,7 @@ In **Figuur 2** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 <p align="center">
   <img src="Resultaten/Rplot.png" alt="GO-termen" width="400"/>
 </p>
+
 **Figuur 2: GO-termen vertegenwoordiging** In het figuur is te zien hoe de vertegenwoordiging van de GO-termen verdeeld is tussen de 20 meest vertegenwoordigde. Op de x-as is de p waarde te zien en op de y-as de GO-termen.
 
 ### Moleculaire pathway
@@ -87,6 +89,7 @@ De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 3** 
 <p align="center">
   <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="400"/>
 </p>
+
 **Figuur 3: Pathview analyse** In het figuur is te zien welke genen binnen de pathway op- en neergereguleerd waren. Rood staat voor opregulatie van het gen en groen neerregulatie.
 
 
