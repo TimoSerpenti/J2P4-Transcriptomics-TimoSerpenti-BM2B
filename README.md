@@ -37,7 +37,7 @@ Voor dit onderzoek is data gebruikt uit een eerdere studie van [(Platzer et al.,
 
 Alle packages die zijn gebruikt voor het uitvoeren van het script zijn `Rsubread(2.24.0)` <a href="Bronnen/RSubread.pdf"> (Liao et al., 2019) </a>, `Rsamtools(2.26.0)` <a href="Bronnen/RSamtools.pdf"> (Morgan et al., 2013) </a>, `DESeq2(1.50.2)` <a href="Bronnen/DESeq2.pdf"> (Love et al., 2014) </a>, `EnhancedVolcano(1.28.2)` <a href="Bronnen/EnhancedVolcano.pdf"> (O’Connell, 2025) </a>, `goseq(1.62.0)` <a href="Bronnen/goseq.pdf"> (young et al., 2012) </a>, `geneLenDataBase(1.46.0)` <a href="Bronnen/goseq.pdf"> (young et al., 2012) </a>, `org.Hs.eg.db(3.22.0)` <a href="Bronnen/OrganismDbi.pdf"> (Carlson et al., 2015) </a>, `AnnotationDbi(1.72.0)` <a href="Bronnen/AnnotationDBI.pdf"> (Pages et al., 2017)  </a>, `GO.db(3.22.0)` <a href="Bronnen/AnnotationDBI.pdf"> (Pages et al., 2017)  </a>, `pathview(1.50.0)` <a href="Bronnen/Pathview.pdf"> (Luo & Brouwer, 2013) </a>, `ggplot2(4.0.3)`  <a href="Bronnen/ggplot2.pdf"> (Wickham, 2011) </a>, `dplyr(1.2.1)` <a href="Bronnen/dplyr.pdf"> (Broatch et al., 2019) </a> en `KEGGREST(1.50.0)` <a href="Bronnen/KEGGREST.pdf"> (Tenenbaum et al., 2019)</a>.
 
-**Tabel 1:** Data samples. In de tabel zijn de `accension nummers`, `de leeftijden`, `het geslacht` en of de `patiënten reuma` hebben te zien.
+**Tabel 1: Data samples** In de tabel zijn de `accension nummers`, `de leeftijden`, `het geslacht` en of de `patiënten reuma` hebben te zien.
 
 | Accession nummer | Leeftijd | Geslacht | Diagnose |
 | :--- | :---: | :---: | :--- |
@@ -59,10 +59,29 @@ Om de significante genen te visualiseren is een `Volcano plot` gemaakt met behul
 Met `GO.db` zijn de Go termen en beschrijvingen verkregen. Als laatst is er een pathway analyse gedaan voor de `TNF signaling pathway` met behulp van de package `pathview(1.50.0)` en `KEGGREST(1.50.0)`.
 
 ## Resultaten
+###Differentiele expressie van genen
+De RNA-seq analyse heeft `2085` significant op gereguleerde genen gevonden bij patiënten met Reuma in vergelijking met de gezonde controles, en `2487` genen die significant neer gereguleerd zijn. In totaal werden er `4572` significant differentieel tot expressie gebracht, van de totaal `29407` variabele genen die zijn meegenomen in de analyse.
 
-Om inzicht te krijgen in eigenschappen van de te gebruiken spreuken is er een overzicht gemaakt, te vinden in [deze tabel](resultaten/top_10_spells.csv). Onvergeeflijke vloeken zijn niet meegenomen in dit overzicht. 
+###Visualisatie genexpressie
+In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano plot]( Resultaten/VolcanoplotREUMA2.png) gemaakt waar meer genen in te zien zijn doordat er minder strikte significantie gebruikt is.
+<p align="center">
+  <img src="Resultaten/VolcanoplotREUMA.png" alt="VolcanoPlot" width="400"/>
+</p>
+**Figuur 1: VolcanoPlot** Op de  x-as is de `log2foldchange` te zien en op de y-as de `p-waarde`. Genen zijn gefilterd op basis van een gecorrigeerde p-waarde `($p_{\text{adj}}$) $< 0.05$` en een absolute `$\log_2 \text{Fold Change } (\text{FC}) > 1$ (of $< -1$)`. Genen die aan beide criteria voldoen, zijn in de plot `rood` gekleurd. Genen die wel een sterke expressieverandering ondergingen maar niet statistisch significant bleken, zijn `groen` gemarkeerd, terwijl niet-significante genen `blauw of grijs` zijn weergegeven.
+De volcano plots lieten een duidelijke spreiding van genen zien die significant omhoog of omlaag gereguleerd zijn. De plots toonde bovendien enkele zeer sterke uitschieters. Zoals `SRGN`, `ANKRD30BL` en `MT-ND6 `op door een erg hoge statistische significantie.
+###GO-termen
+In **Figuur 2** is een staafdiagram te zien waarin de meest verrijkte `GO-termen` te zien zijn. Er werd aangetoond dat immune response, adaptive immune response, immune system process, immunoglobulin complex en antigen binding een oververtegenwoordiging hadden bij mensen met Reuma. 
+<p align="center">
+  <img src="Resultaten/Rplot.png" alt="GO-termen" width="400"/>
+</p>
+**Figuur 2: GO-termen vertegenwoordiging** In het figuur is te zien hoe de vertegenwoordiging van de GO-termen verdeeld is tussen de 20 meest vertegenwoordigde. Op de x-as is de p waarde te zien en op de y-as de GO-termen.
+###Moleculaire pathway
+De gekozen pathway is [TNF signaling]( Resultaten/hsa04668.png), in **Figuur 3** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom en activering van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
+<p align="center">
+  <img src=" Resultaten/hsa04668.pathview.png" alt="Pathview " width="400"/>
+</p>
+**Figuur 3: Pathview analyse** In het figuur is te zien welke genen binnen de pathway op- en neergereguleerd waren. Rood staat voor opregulatie van het gen en groen neerregulatie.
 
-Om een afweging te maken welke spreuken het meest effectief zijn, is er onderzocht of er een verband te vinden is tussen kracht en accuraatheid. In [het resultaat hiervan](resultaten/spell_power_vs_accuracy.png) is te zien dat er een negatieve daling lijkt te zijn in kracht als de accuraatheid toeneemt. Een uitschieter is de onvergeeflijke vloek *Avada Kedavra*, met zowel hoge kracht als accuraatheid. 
 
 ## Conclusie
 
