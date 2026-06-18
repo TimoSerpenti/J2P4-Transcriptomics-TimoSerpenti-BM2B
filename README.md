@@ -26,8 +26,7 @@ Tutor: Dewi van der Bergh
 NHL Stenden - Hogeschool van Hall Larenstein
 
 <p align="center">
-  <img src="Assets/HVHL.png" alt="Flowchart" /> <p align="center">
-  <img src="Assets/NHL.png" alt="Flowchart" />
+  <img src="Assets/HVHL.png" alt="Flowchart" />  <img src="Assets/NHL.png" alt="Flowchart" />
 </p>
 
 
