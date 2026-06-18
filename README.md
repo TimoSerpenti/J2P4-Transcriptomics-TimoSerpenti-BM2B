@@ -60,11 +60,11 @@ Met `GO.db` zijn de Go termen en beschrijvingen verkregen. Als laatst is er een 
 
 ## Resultaten
 
-## Differentiele expressie van genen
+### Differentiele expressie van genen
 
 De RNA-seq analyse heeft `2085` significant op gereguleerde genen gevonden bij patiënten met Reuma in vergelijking met de gezonde controles, en `2487` genen die significant neer gereguleerd zijn. In totaal werden er `4572` significant differentieel tot expressie gebracht, van de totaal `29407` variabele genen die zijn meegenomen in de analyse.
 
-## Visualisatie genexpressie
+### Visualisatie genexpressie
 
 In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano plot]( Resultaten/VolcanoplotREUMA2.png) gemaakt waar meer genen in te zien zijn doordat er minder strikte significantie gebruikt is.
 <p align="center">
@@ -73,7 +73,7 @@ In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano pl
 **Figuur 1: VolcanoPlot** Op de  x-as is de `log2foldchange` te zien en op de y-as de `p-waarde`. Genen zijn gefilterd op basis van een gecorrigeerde p-waarde `($p_{\text{adj}}$) $< 0.05$` en een absolute `$\log_2 \text{Fold Change } (\text{FC}) > 1$ (of $< -1$)`. Genen die aan beide criteria voldoen, zijn in de plot `rood` gekleurd. Genen die wel een sterke expressieverandering ondergingen maar niet statistisch significant bleken, zijn `groen` gemarkeerd, terwijl niet-significante genen `blauw of grijs` zijn weergegeven.
 De volcano plots lieten een duidelijke spreiding van genen zien die significant omhoog of omlaag gereguleerd zijn. De plots toonde bovendien enkele zeer sterke uitschieters. Zoals `SRGN`, `ANKRD30BL` en `MT-ND6 `op door een erg hoge statistische significantie.
 
-## GO-termen
+### GO-termen
 
 In **Figuur 2** is een staafdiagram te zien waarin de meest verrijkte `GO-termen` te zien zijn. Er werd aangetoond dat immune response, adaptive immune response, immune system process, immunoglobulin complex en antigen binding een oververtegenwoordiging hadden bij mensen met Reuma. 
 <p align="center">
