@@ -6,7 +6,7 @@
 - `Data/Raw/` – Onbewerkte sample data
 - `Data/Verwerkt` - Verwerkte data gegenereerd met scripts 
 - `Resultaten/` - Resultaten, Figuren etc.
-- `Scripts/` – Gebruikte script voor het uitvoeren van analyses
+- `Script/` – Gebruikte script voor het uitvoeren van analyses
 - `.gitattributes` - Voor het uploaden van grote bestanden
 - `.gitignore` - Bestanden negeren
 - `README.md` - Tekstbestand
