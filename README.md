@@ -25,6 +25,11 @@ Tutor: Dewi van der Bergh
 
 NHL Stenden - Hogeschool van Hall Larenstein
 
+<p align="center">
+  <img src="Assets/HVHL.png" alt="Flowchart" /> <p align="center">
+  <img src="Assets/NHL.png" alt="Flowchart" />
+</p>
+
 
 # Genexpressie verschillen bij Reumatoïde Artritis: Hoe Ontstekingsgenen en de TNF-Pathway het Verschil Maken met Gezonde Controles
 
