@@ -130,7 +130,7 @@ Er is gebruik gemaakt van AI voor het oplossen van script fouten tijdens analyse
 
 ## Bronnen
 
-Alle gebruikte bronnen zijn terug te vinden in de map [Bronnen/](Bronnen/) , waaronder de bronnen van de packages.
+Alle gebruikte bronnen zijn terug te vinden in de map [Bronnen/](Bronnen/) , waaronder de bronnen van de R packages.
 
 Aho, K., & Heliövaara, M. (2004). Risk factors for rheumatoid arthritis. Annals of Medicine, 36(4), 242–251. https://doi.org/10.1080/07853890410026025
 
