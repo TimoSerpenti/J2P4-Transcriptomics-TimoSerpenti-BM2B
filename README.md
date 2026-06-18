@@ -70,8 +70,9 @@ In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano pl
 <p align="center">
   <img src="Resultaten/VolcanoplotREUMA.png" alt="VolcanoPlot" width="400"/>
 </p>
+  
+**Figuur 1: VolcanoPlot** Op de  x-as is de `log2foldchange` te zien en op de y-as de `p-waarde`. Genen zijn gefilterd op basis van een gecorrigeerde p-waarde `($p_{\text{adj}}$) $< 0.05$` en een absolute `$\log_2 \text{Fold Change } (\text{FC}) > 1$ (of $< -1$)`. Genen die `rood` gekleurd zijn voldoen aan de criteria. Genen die `groen` gekleurd zijn hebben wel verandering maar zijn niet significant, niet-significante genen zijn `blauw of grijs` weergegeven.
 
-**Figuur 1: VolcanoPlot** Op de  x-as is de `log2foldchange` te zien en op de y-as de `p-waarde`. Genen zijn gefilterd op basis van een gecorrigeerde p-waarde `($p_{\text{adj}}$) $< 0.05$` en een absolute `$\log_2 \text{Fold Change } (\text{FC}) > 1$ (of $< -1$)`. Genen die aan beide criteria voldoen, zijn in de plot `rood` gekleurd. Genen die wel een sterke expressieverandering ondergingen maar niet statistisch significant bleken, zijn `groen` gemarkeerd, terwijl niet-significante genen `blauw of grijs` zijn weergegeven.
 De volcano plots lieten een duidelijke spreiding van genen zien die significant omhoog of omlaag gereguleerd zijn. De plots toonde bovendien enkele zeer sterke uitschieters. Zoals `SRGN`, `ANKRD30BL` en `MT-ND6 `op door een erg hoge statistische significantie.
 
 ### GO-termen
