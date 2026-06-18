@@ -103,7 +103,7 @@ In **Figuur 3** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 
 ### Opregulatie van leukocyten en cytokines
 
-De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom en activering van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
+De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
 <p align="center">
   <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="800"/>
 </p>
@@ -114,8 +114,11 @@ De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** 
 ## Conclusie
 
 In dit onderzoek is aangetoond dat er een significant verschil is tussen genexpressie van gezonde en Reumatoïde Artritis patiënten.
+
 Bij de RNA-seq analyse zijn van de totaal `29407`genen, `4572` significant op- en neergereguleerde gevonden bij patiënten met Reuma in vergelijking met de gezonde controles. De hoogste significantie en expressieverschillen werden vastgesteld met de volcano plot bij `SRGN`, `ANKRD30BL` en `MT-ND6`.
-De pathway analyse toonde aan dat vooral genen betrokken bij instroom en activering van `leukocyten` opgereguleerd waren. Ook is er een opregulatie van `inflammatoire cytokines` en `signalering`.
+
+De pathway analyse toonde aan dat vooral genen betrokken bij instroom van `leukocyten` opgereguleerd waren. Ook is er een opregulatie van `inflammatoire cytokines` en `signalering`.
+  
 Dit onderzoek toont resultaten aan waaruit te concluderen is dat er een expressieverschil is tussen gezonde personen en RA-patiënten. Wat mogelijk te maken kan hebben met genetische afwijkingen in `ontstekingsreactie` en `immuunrespons routes`.
 
 ## Disclaimer gebruik van AI
