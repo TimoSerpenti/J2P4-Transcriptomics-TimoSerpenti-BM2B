@@ -96,7 +96,7 @@ De volcano plot in **Figuur 1** liet een duidelijke spreiding van genen zien die
 
 In **Figuur 3** is een staafdiagram te zien waarin de meest verrijkte `GO-termen` te zien zijn. Er werd aangetoond dat immune response, adaptive immune response, immune system process, immunoglobulin complex en antigen binding oververtegenwoordigd waren bij mensen met Reuma. 
 <p align="center">
-  <img src="Resultaten/Rplot.png" alt="GO-termen" width="400"/>
+  <img src="Resultaten/Rplot.png" alt="GO-termen" width="800"/>
 </p>
 
 > <sub>**Figuur 3: GO-termen vertegenwoordiging** In het figuur is te zien hoe de vertegenwoordiging van de GO-termen verdeeld is tussen de 20 meest vertegenwoordigde. Op de x-as is de p waarde te zien en op de y-as de GO-termen.<sub>
