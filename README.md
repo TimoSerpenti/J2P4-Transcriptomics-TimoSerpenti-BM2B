@@ -17,6 +17,15 @@
   <img src="Assets/Voorblad.png" alt="Flowchart" />
 </p>
 
+Timo Serpenti - 5524903 - LBM2-B
+
+25-26 J2P4_BM Innovatieve Diagnostiek
+
+Tutor: Dewi van der Bergh
+
+NHL Stenden - Hogeschool van Hall Larenstein
+
+
 # Genexpressie verschil tussen gezonde en patiënten met Reumatoïde Artritis
 
 ## Inleiding
@@ -100,5 +109,5 @@ De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** 
 
 ## Conclusie
 
-Spreuken met meer accuraatheid lijken minder krachtig te zijn. Een uitzondering op deze trend is de onvergeeflijke vloek *Avada Kedavra*, welke beter niet gebruikt kan worden. 
+. 
 
