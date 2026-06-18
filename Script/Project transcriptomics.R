@@ -97,9 +97,9 @@ library(dplyr)
 
 rownames.all = rownames(reumaresultaten)
 
-reumaresultaten2 = as.data.frame(reumaresultaten)
+reumaresultaten = as.data.frame(reumaresultaten)
 
-deg = reumaresultaten2 %>% filter(padj < 0.05, log2FoldChange > 1)
+deg = reumaresultaten %>% filter(padj < 0.05, log2FoldChange > 1)
 
 rownames_deg = rownames(deg)
 
