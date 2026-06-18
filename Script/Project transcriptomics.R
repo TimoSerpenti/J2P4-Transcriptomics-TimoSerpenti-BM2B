@@ -114,9 +114,9 @@ library(geneLenDataBase)
 library(org.Hs.eg.db)
 library(AnnotationDbi)
 
-pwf = nullp(DEgenes = gene.vector, genome = "hg19", id = "geneSymbol")
+PWF = nullp(DEgenes = gene.vector, genome = "hg19", id = "geneSymbol")
 
-GO.wall = goseq(pwf, "hg19", "geneSymbol")
+GO.wall = goseq(PWF, "hg19", "geneSymbol")
 
 class(GO.wall)
 head(GO.wall)
@@ -131,6 +131,21 @@ length(enriched.GO)
 library(GO.db)
 capture.output(for(go in enriched.GO[1:258]) { print(GOTERM[[go]])
   cat("--------------------------------------\n")}, file="SigGo.txt")
+GO.sig <- GO.wall %>% 
+  filter(over_represented_pvalue < 0.05)
+topGO <- GO.sig %>%
+  arrange(over_represented_pvalue) %>%
+  head(20)
+topGO
+library(ggplot2)
+ggplot(topGO,
+       aes(x = reorder(term, -log10(over_represented_pvalue)),
+           y = -log10(over_represented_pvalue))) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  xlab("GO term") +
+  ylab("-log10(p-value)") +
+  ggtitle("Top enriched GO terms in Rheumatoid Arthritis")
 
 genes_go <- AnnotationDbi::select(
   org.Hs.eg.db,
@@ -145,7 +160,7 @@ reumaresultaten[1] <- NULL
 reumaresultaten[2:5] <- NULL
 ReumaPathway <- reumaresultaten$log2FoldChange
 names(ReumaPathway) <- rownames(reumaresultaten)
-  
+
 library(pathview)
 pathview(
   gene.data = reumaresultaten,
