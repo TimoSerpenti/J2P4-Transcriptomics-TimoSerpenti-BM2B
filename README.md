@@ -30,7 +30,7 @@ Het doel van dit onderzoek is om te bepalen of er een verschil is in genexpressi
 
 ## Methoden
 
-Voor dit onderzoek is data gebruikt uit een eerdere studie van [(Platzer et al., 2019)](Bronnen/samples.pdf), deze data is verkregen van 4 samples van gezonde patiënten en 4 van patiënten met RA te zien in *Tabel 1*. RNA is geïsoleerd uit gewrichtsslijmvlies weefsel van patiënten met RA. Alle analyses zijn uitgevoerd met R (versie 4.5.3) in RStudio. Er is gebruik gemaakt van een script om reproduceerbaarheid te garanderen. De methode is te zien in de flowchart hieronder.
+Voor dit onderzoek is data gebruikt uit een eerdere studie van [(Platzer et al., 2019)](Bronnen/samples.pdf), deze data is verkregen van 4 samples van gezonde patiënten en 4 van patiënten met RA te zien in **Tabel 1**. RNA is geïsoleerd uit gewrichtsslijmvlies weefsel van patiënten met RA. Alle analyses zijn uitgevoerd met R (versie 4.5.3) in RStudio. Er is gebruik gemaakt van een script om reproduceerbaarheid te garanderen. De methode is te zien in de flowchart hieronder.
 <p align="center">
   <img src="Assets/Flowchart.png" alt="Flowchart" width="400"/>
 </p>
