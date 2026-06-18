@@ -31,7 +31,7 @@ NHL Stenden - Hogeschool van Hall Larenstein
 
 ---
 
-# Genexpressie verschillen bij Reumatoïde Artritis: Hoe Ontstekingsgenen en de TNF-Pathway het Verschil Maken met Gezonde Controles
+# Genexpressie verschillen bij Reumatoïde Artritis: Hoe ontstekingsgenen en de TNF-Pathway het verschil maken met gezonde controles
 
 ## Inleiding
 
