@@ -12,6 +12,8 @@
 - `Data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship. 
 - `Resultaten/` - Resultaten
 - `Scripts/` – Gebruikte script om analyzes uit te voeren
+- `.gitattributes` - Voor het uploaden van grote bestanden
+- `.gitignore` - Bestanden negeren
 - `README.md` - Tekstbestand
 
 ---
