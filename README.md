@@ -103,7 +103,7 @@ In **Figuur 3** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 
 ### Opregulatie van leukocyten en cytokines
 
-Er werd gekozen voor de [TNF signaling pathway](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering. Dit zijn logische opregulaties bij het ziekte beeld, omdat het een chronische immuun aandoening is.
+Er werd gekozen voor de [TNF signaling pathway](Resultaten/hsa04668.png) omdat deze een belangrijk rol in het immuunsysteem speelt en, ontstekingen  en celdood reguleert. In **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering. Dit zijn logische opregulaties bij het ziekte beeld, omdat het een chronische immuun aandoening is.
 <p align="center">
   <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="800"/>
 </p>
@@ -127,6 +127,8 @@ Voor vervolg onderzoek zou het goed zijn om een grotere steekproef te nemen, ook
 
 Voor dit verslag is er op verschillende manieren gebruik gemaakt van AI.
 Er is gebruik gemaakt van AI voor het oplossen van script fouten tijdens analyse, hulp bij het schrijven van de ReadMe code, afbeeldingen gegenereerd (Voorblad en Flowchart), titelinspiratie, hulp bij interpretatie van resultaten, uitleggen van code + errors en spellingcontrole.
+
+De gebruikte AI modellen zijn ChatGPT(GPT-5.5) en Google Gemini(Gemini 3.5 Flash)
 
 ## Bronnen
 
