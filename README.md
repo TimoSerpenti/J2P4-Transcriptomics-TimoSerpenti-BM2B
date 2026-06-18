@@ -25,7 +25,7 @@
 
 De exacte oorzaak van de aandoening is nog niet bekend, zowel `genetica` als `milieu` dragen bij aan de ontwikkeling van de ziekte [(Aho & Heliövaara, 2004)](Bronnen/Risk%20factors%20for%20rheumatoid%20arthritis.pdf). Er is tot op heden nog geen geneesmiddel voor de aandoening, wat een aanleiding is voor het uitvoeren van het onderzoek [(Bullock et al., 2019)](Bronnen/Rheumatoid%20Arthritis%20A%20Brief%20Overview.pdf). 
 
-Het doel van dit onderzoek is om te bepalen of er een verschil is in `genexpressie` tussen gezonde patiënten en patiënten met Reumatoïde Artritis. Dit doel wordt bereikt door te kijken naar welke genen `differentieel` tot expressie gebracht zijn bij RA-patiënten, door een `DESeq2` analyse uit te voeren. Ook wordt er met behulp van een `Volcanoplot` gekeken welke genen de grootste verschillen in expressie tussen patiënten vertonen. Als laatst wordt er gekeken naar welke `pathways` betrokken zijn bij ontwikkeling van RA, door een pathway analyse uit te voeren.
+Het doel van dit onderzoek is om te bepalen of er een verschil is in `genexpressie` tussen gezonde patiënten en patiënten met Reumatoïde Artritis. Dit doel wordt bereikt door te kijken naar welke genen `differentieel` tot expressie gebracht zijn bij RA-patiënten, ook wordt er gekeken welke genen de grootste verschillen in expressie tussen patiënten vertone en als laatst wordt er gekeken naar welke `pathways` betrokken zijn bij ontwikkeling van RA.
 
 
 ## Methoden
@@ -61,6 +61,8 @@ Om de significante genen te visualiseren is een `Volcano plot` gemaakt met behul
 Met `GO.db` zijn de Go termen en beschrijvingen verkregen. Als laatst is er een pathway analyse gedaan voor de `TNF signaling pathway` met behulp van de package `pathview(1.50.0)` en `KEGGREST(1.50.0)`.
 
 ## Resultaten
+
+Het doel van dit onderzoek was om verschillen te vinden in genexpressie tussen mensen met de aandoening Reumatoïde Artritis en gezonde mensen. Dat is gedaan door de verschillende analyses uit te voeren die besproken zijn in de methode.
 
 ### Differentiele expressie van genen
 
