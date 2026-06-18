@@ -28,7 +28,7 @@ NHL Stenden - Hogeschool van Hall Larenstein
 <p align="center">
   <img src="Assets/HVHL.png" alt="Flowchart" width="220"/>  <img src="Assets/NHL.png" alt="Flowchart" width="100"/>
 </p>
-
+---
 
 # Genexpressie verschillen bij Reumatoïde Artritis: Hoe Ontstekingsgenen en de TNF-Pathway het Verschil Maken met Gezonde Controles
 
