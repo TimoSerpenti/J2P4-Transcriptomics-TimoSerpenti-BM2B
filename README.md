@@ -121,7 +121,7 @@ Dit onderzoek toont resultaten aan waaruit te concluderen is dat er een expressi
 ## Disclaimer gebruik van AI
 
 Voor dit verslag is er op verschillende manieren gebruik gemaakt van AI.
-Er is gebruik gemaakt van AI voor het oplossen van script fouten tijdens analyse, hulp bij het schrijven van de ReadMe code, afbeeldingen gegenereerd (Voorblad en Flowchart), hulp bij interpretatie van resultaten, uitleggen van code + errors en spellingcontrole.
+Er is gebruik gemaakt van AI voor het oplossen van script fouten tijdens analyse, hulp bij het schrijven van de ReadMe code, afbeeldingen gegenereerd (Voorblad en Flowchart), titelinspiratie, hulp bij interpretatie van resultaten, uitleggen van code + errors en spellingcontrole.
 
 
 
