@@ -66,7 +66,7 @@ De RNA-seq analyse heeft `2085` significant op gereguleerde genen gevonden bij p
 
 ### Visualisatie genexpressie
 
-In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano plot]( Resultaten/VolcanoplotREUMA2.png) gemaakt waar meer genen in te zien zijn doordat er minder strikte significantie gebruikt is.
+In de `volcano plot` in **Figuur 1** is te zien er is ook een [tweede volcano plot](Resultaten/VolcanoplotREUMA2.png) gemaakt waar meer genen in te zien zijn doordat er minder strikte significantie gebruikt is.
 <p align="center">
   <img src="Resultaten/VolcanoplotREUMA.png" alt="VolcanoPlot" width="400"/>
 </p>
@@ -83,9 +83,9 @@ In **Figuur 2** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 
 ### Moleculaire pathway
 
-De gekozen pathway is [TNF signaling]( Resultaten/hsa04668.png), in **Figuur 3** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom en activering van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
+De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 3** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom en activering van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering.
 <p align="center">
-  <img src=" Resultaten/hsa04668.pathview.png" alt="Pathview " width="400"/>
+  <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="400"/>
 </p>
 **Figuur 3: Pathview analyse** In het figuur is te zien welke genen binnen de pathway op- en neergereguleerd waren. Rood staat voor opregulatie van het gen en groen neerregulatie.
 
