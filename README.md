@@ -103,7 +103,7 @@ In **Figuur 3** is een staafdiagram te zien waarin de meest verrijkte `GO-termen
 
 ### Opregulatie van leukocyten en cytokines
 
-De gekozen pathway is [TNF signaling](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering. Dit zijn logische opregulaties bij het ziekte beeld, omdat het een chronische immuun aandoening is.
+Er werd gekozen voor de [TNF signaling pathway](Resultaten/hsa04668.png), in **Figuur 4** is de pathway analyse te zien. Deze toont de opregulatie van genen betrokken bij de instroom van leukocyten. Ook is er een opregulatie van inflammatoire cytokines en signalering. Dit zijn logische opregulaties bij het ziekte beeld, omdat het een chronische immuun aandoening is.
 <p align="center">
   <img src="Resultaten/hsa04668.pathview.png" alt="Pathview " width="800"/>
 </p>
